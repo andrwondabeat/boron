@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/index.css">
+  <script defer src="/js/cardSwapper.js"></script>
+  <script defer src="/js/hamburger.js"></script>
+  <script defer src="/js/sideScroll.js"></script>
+  <script defer src="/js/upScroll.js"></script>
+  <link rel="icon" type="image/x-icon" href="/assets/img/logo/B.svg">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/62ed63b95e.js" crossorigin="anonymous"></script>
+  <title>Boron</title>
+
+</head>
+<body>
+
+  <!-- NavBar -->
+  <nav class="navBar">
+    <!-- Logo -->
+    <div class="navBar__logo">
+      <img src="/assets/img/logo/B.svg" alt="">
+      <img src="/assets/img/logo/O.svg" alt="">
+      <img src="/assets/img/logo/R.svg" alt="">
+      <img src="/assets/img/logo/O.svg" alt="">
+      <img src="/assets/img/logo/N.svg" alt="">
+    </div>
+    <!-- Boton menu hamburguesa-->
+    <div class="navBar__hambButton">
+      <p>Menú</p>
+      <div class="navBar__hambButton__bars">
+        <div class="navBar__hambButton__bars__barL"></div>
+        <div class="navBar__hambButton__bars__barS"></div>
+      </div>
+    </div>
+    <!-- Menu hamburguesa -->
+    <div class="navBar__hamburger">
+      <!-- Primer fila del menu hamburguesa -->
+      <ul class="navBar__hamburger__upper">
+        <li class="navBar__hamburger__upper__item"><a href="#">Acerca de</a></li>
+        <li class="navBar__hamburger__upper__item"><a href="#">Proyectos</a></li>
+        <li class="navBar__hamburger__upper__item"><a href="#">Repositorio</a></li>
+        <li class="navBar__hamburger__upper__item"><a href="#">Novedades</a></li>
+        <li class="navBar__hamburger__upper__item"><a href="#">Contacto</a></li>
+      </ul>
+      <!-- Segunda fila del menu hamburguesa -->
+      <ul class="navBar__hamburger__middle">
+        <li class="navBar__hamburger__middle__item"><a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a></li>
+        <li class="navBar__hamburger__middle__item"><a href="#">EN / <b>ES</b></a></li>
+      </ul>
+      <!-- Tercera fila del menu hamburguesa -->
+      <ul class="navBar__hamburger__bottom">
+        <button class="navBar__hamburger__bottom__newsletter">SUSCRIBITE A NUESTRO NEWSLETER <i class="fa-solid fa-arrow-right"></i></button>
+        <i id="twt" class="fa-brands fa-twitter"></i>
+        <i id="yt" class="fa-brands fa-youtube"></i>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Bienvenida -->
+  <section class="title">
+    <h1 class="title__header hidden">Bienvenidos</h1>
+    <p class="title__paragraph hidden">Desarrollamos y<mark class="title__paragraph__subText"> promovemos</mark> <mark class="title__paragraph__subText">investigación,</mark> innovación y divulgación sobre tecnología digital y aprendizaje, en Uruguay y América Latina</p>
+  </section>
+
+
+  <!-- Marquesinas -->
+  <section class="movingBanners">
+    <!-- Primer marquesina -->
+    <div class="movingBanners__banner">
+      <ul class="movingBanners__banner__bannerContainer">
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/Mask group.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Diseño</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/med-badr-chemmaoui-ZSPBhokqDMc-unsplash 1.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Diseño</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/Mask group.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Diseño</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/med-badr-chemmaoui-ZSPBhokqDMc-unsplash 1.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Diseño</h1></li>
+      </ul>
+    </div>
+    <!-- Segunda marquesina -->
+    <div class="movingBanners__banner">
+      <ul class="movingBanners__banner__bannerContainer">
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><img src="/assets/img/first_section/image 15.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><h1>Tecnología</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><img src="/assets/img/first_section/image 14.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><h1>Innovación</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><img src="/assets/img/first_section/image 15.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><h1>Tecnología</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><img src="/assets/img/first_section/image 14.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece rightScroll"><h1>Innovación</h1></li>
+      </ul>
+    </div>
+    <!-- Tercera marquesina -->
+    <div class="movingBanners__banner">
+      <ul class="movingBanners__banner__bannerContainer">
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/pedro-slinger-ehFgttlFJNA-unsplash 1-1.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Uruguay</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/pedro-slinger-ehFgttlFJNA-unsplash 1.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Uruguay</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/pedro-slinger-ehFgttlFJNA-unsplash 1-1.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Uruguay</h1></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><img src="/assets/img/first_section/pedro-slinger-ehFgttlFJNA-unsplash 1.png" alt=""></li>
+        <li class="movingBanners__banner__bannerContainer__piece leftScroll"><h1>Uruguay</h1></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Quienes somos -->
+  <section class="somos">
+    <p class="somos__text hidden">Somos una organización autónoma que busca resolver desafíos relacionados con el aprendizaje y la mediación de las tecnologías, a través de metodologías innovadoras y un abordaje práctico, social y participativo.</p>
+  </section>
+
+  <!-- Nuestro enfoque -->
+  <section class="nuestroEnfoque">
+    <!-- Seccion izquierda -->
+    <div class="nuestroEnfoque__left hidden">
+      <p class="nuestroEnfoque__left__texto1 hidden">NUESTRO ENFOQUE</p>
+      <p class="nuestroEnfoque__left__texto2 hidden">Está orientada a problematizar y aportar ideas y soluciones a la implementación actual y futura de Boron Studio y de otros actores  nacionales e internacionales.</p>
+    </div>
+    <!-- Seccion derecha / imagen -->
+    <div class="nuestroEnfoque__right hiddenUp">
+      <img src="/assets/img/third&fourth_section/thisisengineering-raeng-64YrPKiguAE-unsplash.png" alt="" class="nuestroEnfoque__right__img">
+    </div>
+  </section>
+
+  <!-- Twitter -->
+  <section class="tweetSection">
+
+    <!-- Seccion izquierda / imagen -->
+    <div class="tweetSection__left hidden">
+      <img src="/assets/img/third&fourth_section/image 20.png" alt="">
+    </div>
+
+    <!-- Seccion del tweet slider -->
+    <div class="tweetSection__right hiddenUp">
+      <!-- Card por cada tweet (Los elementos de las cards son todos exactamente iguales) -->
+      <div class="tweetSection__right__card">
+        <!-- Titulo y logo de twitter -->
+        <p class="tweetSection__right__card__title">SEGUINOS EN TWITTER</p>
+        <i id="twitterLogo" class="fa-brands fa-twitter"></i>
+        <!-- Nombre y @ de la persona que twittea y -->
+        <div class="tweetSection__right__card__tweeter">
+          <p class="tweetSection__right__card__tweeter__name">Boronstudio</p>
+          <p class="tweetSection__right__card__tweeter__at">@Boronstudio</p>
+        </div>
+        <!-- Contenido del tweet -->
+        <div class="tweetSection__right__card__tweet">
+          <p class="tweetSection__right__card__tweet__hour">2hs</p>
+          <p class="tweetSection__right__card__tweet__tweetContent">📌<mark>#OportunidadLaboral</mark> Llamado abierto para sumarse al equipo de <mark>@Boronstudio</mark> master digital.👩‍💻👨‍💻
+          <br>Más información 👉<mark>https://bit.ly/2OobIHS</mark></p>
+        </div>
+
+      </div>
+      <!-- Card -->
+      <div class="tweetSection__right__card">
+        <!-- Titulo y logo de twitter -->
+        <p class="tweetSection__right__card__title">SEGUINOS EN TWITTER</p>
+        <i id="twitterLogo" class="fa-brands fa-twitter"></i>
+        <!-- Nombre y @ de la persona que twittea y -->
+        <div class="tweetSection__right__card__tweeter">
+          <p class="tweetSection__right__card__tweeter__name">Boronstudio</p>
+          <p class="tweetSection__right__card__tweeter__at">@Boronstudio</p>
+        </div>
+        <!-- Contenido del tweet -->
+        <div class="tweetSection__right__card__tweet">
+          <p class="tweetSection__right__card__tweet__hour">2hs</p>
+          <p class="tweetSection__right__card__tweet__tweetContent">TWEET 2</p>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="tweetSection__right__card">
+        <!-- Titulo y logo de twitter -->
+        <p class="tweetSection__right__card__title">SEGUINOS EN TWITTER</p>
+        <i id="twitterLogo" class="fa-brands fa-twitter"></i>
+        <!-- Nombre y @ de la persona que twittea y -->
+        <div class="tweetSection__right__card__tweeter">
+          <p class="tweetSection__right__card__tweeter__name">Boronstudio</p>
+          <p class="tweetSection__right__card__tweeter__at">@Boronstudio</p>
+        </div>
+        <!-- Contenido del tweet -->
+        <div class="tweetSection__right__card__tweet">
+          <p class="tweetSection__right__card__tweet__hour">2hs</p>
+          <p class="tweetSection__right__card__tweet__tweetContent">TWEET 3</p>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="tweetSection__right__card">
+
+        <p class="tweetSection__right__card__title">SEGUINOS EN TWITTER</p>
+        <i id="twitterLogo" class="fa-brands fa-twitter"></i>
+
+        <div class="tweetSection__right__card__tweeter">
+          <p class="tweetSection__right__card__tweeter__name">Boronstudio</p>
+          <p class="tweetSection__right__card__tweeter__at">@Boronstudio</p>
+        </div>
+
+
+        <div class="tweetSection__right__card__tweet">
+          <p class="tweetSection__right__card__tweet__hour">2hs</p>
+          <p class="tweetSection__right__card__tweet__tweetContent">TWEET 4
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Flechas del slider -->
+      <div class="tweetSection__right__arrows">
+        <i id="leftArrow" class="fa-solid fa-arrow-left"></i>
+        <i id="rightArrow" class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repositorio -->
+  <section class="repositorio">
+
+    <!-- Header del repositorio -->
+    <div class="repositorio__header hiddenUp">
+      <!-- Titulo del repositorio -->
+      <h1 class="repositorio__header__titulo">Repositorio</h1>
+      <!-- Texto alineado a la derecha del titulo del repositorio -->
+      <p class="repositorio__header__subtitulo">Repositorio Institucional de Boron Studio</p>
+    </div>
+
+    <!-- Container de los items del repositorio -->
+    <ul class="repositorio__itemContainer hidden">
+      <!-- Item del repositorio -->
+      <li class="repositorio__itemContainer__item image1 hidden">
+        <h2>Autor</h2>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
+      <!-- Item del repositorio -->
+      <li class="repositorio__itemContainer__item image2 hidden">
+        <h2>Titulo</h2>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
+      <!-- Item del repositorio -->
+      <li class="repositorio__itemContainer__item image3 hidden">
+        <h2>Líneas de navegación</h2>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
+      <!-- Item del repositorio -->
+      <li class="repositorio__itemContainer__item image4 hidden">
+        <h2>Descripciones</h2>
+        <i class="fa-solid fa-arrow-right"></i>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Novedades -->
+  <section class="novedades">
+    <!-- Titulo -->
+    <h1 class="hiddenUp">Novedades</h1>
+    <!-- Container de las cards de novedades -->
+    <ul class="novedades__cardContainer">
+      <!-- Card -->
+      <li class="novedades__cardContainer__card blueCard hiddenUp">
+        <!-- Imagen del hover -->
+        <img src="/assets/img/novedades/colin-meg-BxQeZ9UQQhA-unsplash.jpg" alt="">
+        <!-- Card header -->
+        <div class="novedades__cardContainer__card__header">
+          <p>Webinar</p>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <!-- Texto de la card -->
+        <p class="novedades__cardContainer__card__text">Boron Studio invita a webinar sobre educación híbrida</p>
+      </li>
+
+      <!-- Card -->
+      <li class="novedades__cardContainer__card cyanCard hiddenUp">
+        <!-- Imagen del hover -->
+        <img src="/assets/img/novedades/dell-4Ea0P4IsZ_4-unsplash.jpg" alt="">
+        <!-- Card header -->
+        <div class="novedades__cardContainer__card__header">
+          <p>Webinar</p>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <!-- Texto de la card -->
+        <p class="novedades__cardContainer__card__text">Boron Studio invita a webinar sobre educación híbrida</p>
+      </li>
+
+      <!-- Card -->
+      <li class="novedades__cardContainer__card greenCard hiddenUp">
+        <!-- Imagen del hover -->
+        <img src="/assets/img/novedades/mailchimp-Vc2dD4l57og-unsplash.jpg" alt="">
+        <!-- Card header -->
+        <div class="novedades__cardContainer__card__header">
+          <p>Evento</p>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <!-- Texto de la card -->
+        <p class="novedades__cardContainer__card__text">Boron Studio presenta experiencia de educación a distancia en México</p>
+
+      </li>
+      <!-- Card -->
+      <li class="novedades__cardContainer__card yellowCard hiddenUp">
+        <!-- Imagen del hover -->
+        <img src="/assets/img/novedades/mailchimp-YTZOyio3Udk-unsplash.jpg" alt="">
+        <!-- Card header -->
+        <div class="novedades__cardContainer__card__header">
+          <p>Publicacion</p>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <!-- Texto de la card -->
+        <p class="novedades__cardContainer__card__text">Publicación del libro “Tecnología: Lo que puede y no puede hacer por la educación”</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <!-- Para entender mejor el layout, ver el flex. Podria haber usado grid, pero flex me pareció mas rapido en el momento, y no me llevó ninguna complicación -->
+  <footer class="footer">
+    <!-- Fila superior del footer -->
+    <div class="footer__upper">
+      <!-- Celda izquierda -->
+      <div class="footer__upper__left hiddenUp">
+        <!-- Mitad superior de la celda izquierda -->
+        <div class="footer__upper__left__up">
+          <img src="/assets/img/logo/B.svg" alt="">
+          <img src="/assets/img/logo/O.svg" alt="">
+          <img src="/assets/img/logo/R.svg" alt="">
+          <img src="/assets/img/logo/O.svg" alt="">
+          <img src="/assets/img/logo/N.svg" alt="">
+        </div>
+        <!-- Mitad inferior de la celda izquierda -->
+        <div class="footer__upper__left__down">
+          <p>Enterate de las <br> últimas novedades</p>
+          <button class="footer__upper__left__down__newsletter">SUSCRIBITE A NUESTRO NEWSLETER <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <!-- Celda central -->
+      <div class="footer__upper__center hiddenUp">
+        <p>info@boronstudio.com</p>
+        <i id="twt" class="fa-brands fa-twitter"></i>
+        <i id="yt" class="fa-brands fa-youtube"></i>
+      </div>
+
+      <!-- Celda derecha -->
+      <div class="footer__upper__right hiddenUp">
+        <ul class="footer__upper__right__listaItems">
+          <li class="footer__upper__right__listaItems__item"><a href="#">Acerca de</a></li>
+          <li class="footer__upper__right__listaItems__item"><a href="#">Proyectos</a></li>
+          <li class="footer__upper__right__listaItems__item"><a href="#">Repositorio</a></li>
+          <li class="footer__upper__right__listaItems__item"><a href="#">Novedades</a></li>
+          <li class="footer__upper__right__listaItems__item"><a href="#">Contacto</a></li>
+          <li class="footer__upper__right__listaItems__item"><a href="#">Líneas de investigación</a></li>
+          <li class="footer__upper__right__listaItems__item"><a href="#">Información financiera</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Fila inferior del footer -->
+    <div class="footer__bottom">
+      <p class="footer__bottom__text">©2023 Todos los derechos reservados. Boron studio</p>
+      <p class="footer__bottom__text">BY Boron Studio</p>
+    </div>
+  </footer>
+</body>
+</html>

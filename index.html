@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="/css/index.css">
   <script defer src="/js/cardSwapper.js"></script>
   <script defer src="/js/hamburger.js"></script>
-  <script defer src="/js/sideSbranchcroll.js"></script>
+  <script defer src="/js/sideScroll.js"></script>
   <script defer src="/js/upScroll.js"></script>
   <link rel="icon" type="image/x-icon" href="/assets/img/logo/B.svg">
 
@@ -20,6 +20,9 @@
   <!-- NavBar -->
   <nav class="navBar">
     <!-- Logo -->
+
+
+
     <div class="navBar__logo">
       <img src="/assets/img/logo/B.svg" alt="">
       <img src="/assets/img/logo/O.svg" alt="">
@@ -38,6 +41,15 @@
     <!-- Menu hamburguesa -->
     <div class="navBar__hamburger">
       <!-- Primer fila del menu hamburguesa -->
+
+      <div class="navBar__hamburger__logo">
+        <img src="/assets/img/logo/B.svg" alt="">
+        <img src="/assets/img/logo/O.svg" alt="">
+        <img src="/assets/img/logo/R.svg" alt="">
+        <img src="/assets/img/logo/O.svg" alt="">
+        <img src="/assets/img/logo/N.svg" alt="">
+      </div>
+
       <ul class="navBar__hamburger__upper">
         <li class="navBar__hamburger__upper__item"><a href="#">Acerca de</a></li>
         <li class="navBar__hamburger__upper__item"><a href="#">Proyectos</a></li>
@@ -56,6 +68,13 @@
         <i id="twt" class="fa-brands fa-twitter"></i>
         <i id="yt" class="fa-brands fa-youtube"></i>
       </ul>
+
+      <div class="navBar__hamburger__redes">
+        <p>info@boronstudio.com</p>
+        <i id="twt" class="fa-brands fa-twitter"></i>
+        <i id="yt" class="fa-brands fa-youtube"></i>
+      </div>
+
     </div>
   </nav>
 
@@ -124,7 +143,7 @@
     </div>
     <!-- Seccion derecha / imagen -->
     <div class="nuestroEnfoque__right hiddenUp">
-      <img src="/assets/img/third&fourth_section/thisisengineering-raeng-64YrPKiguAE-unsplash.png" alt="" class="nuestroEnfoque__right__img">
+      <img src="/assets/img/third&fourth_section/thisisengineering-raeng-64YrPKiguAE-unsplash.png" alt="">
     </div>
   </section>
 
@@ -313,53 +332,47 @@
   </section>
 
   <!-- Footer -->
-  <!-- Para entender mejor el layout, ver el flex. Podria haber usado grid, pero flex me pareció mas rapido en el momento, y no me llevó ninguna complicación -->
   <footer class="footer">
-    <!-- Fila superior del footer -->
-    <div class="footer__upper">
-      <!-- Celda izquierda -->
-      <div class="footer__upper__left hiddenUp">
-        <!-- Mitad superior de la celda izquierda -->
-        <div class="footer__upper__left__up">
-          <img src="/assets/img/logo/B.svg" alt="">
-          <img src="/assets/img/logo/O.svg" alt="">
-          <img src="/assets/img/logo/R.svg" alt="">
-          <img src="/assets/img/logo/O.svg" alt="">
-          <img src="/assets/img/logo/N.svg" alt="">
-        </div>
-        <!-- Mitad inferior de la celda izquierda -->
-        <div class="footer__upper__left__down">
-          <p>Enterate de las <br> últimas novedades</p>
-          <button class="footer__upper__left__down__newsletter">SUSCRIBITE A NUESTRO NEWSLETER <i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-      </div>
 
-      <!-- Celda central -->
-      <div class="footer__upper__center hiddenUp">
+    <div class="footer__gridLayout">
+
+      <div class="footer__gridLayout__logo">
+        <img src="/assets/img/logo/B.svg" alt="">
+        <img src="/assets/img/logo/O.svg" alt="">
+        <img src="/assets/img/logo/R.svg" alt="">
+        <img src="/assets/img/logo/O.svg" alt="">
+        <img src="/assets/img/logo/N.svg" alt="">
+      </div>
+  
+      <div class="footer__gridLayout__newsletter">
+        <p>Enterate de las <br> últimas novedades</p>
+        <button> SUSCRIBITE A NUESTRO NEWSLETER <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+  
+      <div class="footer__gridLayout__redes">
         <p>info@boronstudio.com</p>
         <i id="twt" class="fa-brands fa-twitter"></i>
         <i id="yt" class="fa-brands fa-youtube"></i>
       </div>
-
-      <!-- Celda derecha -->
-      <div class="footer__upper__right hiddenUp">
-        <ul class="footer__upper__right__listaItems">
-          <li class="footer__upper__right__listaItems__item"><a href="#">Acerca de</a></li>
-          <li class="footer__upper__right__listaItems__item"><a href="#">Proyectos</a></li>
-          <li class="footer__upper__right__listaItems__item"><a href="#">Repositorio</a></li>
-          <li class="footer__upper__right__listaItems__item"><a href="#">Novedades</a></li>
-          <li class="footer__upper__right__listaItems__item"><a href="#">Contacto</a></li>
-          <li class="footer__upper__right__listaItems__item"><a href="#">Líneas de investigación</a></li>
-          <li class="footer__upper__right__listaItems__item"><a href="#">Información financiera</a></li>
+  
+      <div class="footer__gridLayout__links">
+        <ul class="">
+          <li class=""><a href="#">Acerca de</a></li>
+          <li class=""><a href="#">Proyectos</a></li>
+          <li class=""><a href="#">Repositorio</a></li>
+          <li class=""><a href="#">Novedades</a></li>
+          <li class=""><a href="#">Contacto</a></li>
+          <li class=""><a href="#">Líneas de investigación</a></li>
+          <li class=""><a href="#">Información financiera</a></li>
         </ul>
       </div>
     </div>
 
-    <!-- Fila inferior del footer -->
-    <div class="footer__bottom">
-      <p class="footer__bottom__text">©2023 Todos los derechos reservados. Boron studio</p>
-      <p class="footer__bottom__text">BY Boron Studio</p>
+    <div class="footer__copyright">
+      <p>©2023 Todos los derechos reservados. Boron studio</p>
+      <p>BY Boron Studio</p>
     </div>
+
   </footer>
 </body>
 </html>

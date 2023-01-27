@@ -861,6 +861,7 @@
 @media (max-width: 600px) {
   .footer__copyright {
     flex-direction: column-reverse;
+    text-align: center;
     gap: 3vw;
   }
 }

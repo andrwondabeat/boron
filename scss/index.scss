@@ -979,6 +979,7 @@ text-align: center;
 
       @media (max-width:$mediumSmall){
         flex-direction: column-reverse;
+        text-align: center;
         gap: 3vw;
       }
 
